@@ -1,13 +1,27 @@
 body {
 margin: 0;
-padding: #000000;
-background: #000000;
+padding: #5b2e00;
+background: #ff9e3e;
 color: 0;
-font size: 12px;
-font family: Arial, Tahoma, sans-serif;
+font-size: 12px;
+font-family: Arial, Tahoma, sans-serif;
+text-align: center;
 }
 
 #kontener {
 width: 900px;
 margin: 5px auto;
+text-align: left;
+background: #8080ff;
+border: 3px solid #408080;
+}
+#naglowek {
+background: #00ffff;
+border: 5px solid #800080;
+}
+
+#naglowek h1 {
+margin: 0;
+text-align: center;
+padding: 20px 0;
 }
