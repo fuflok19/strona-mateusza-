@@ -25,3 +25,11 @@ margin: 0;
 text-align: center;
 padding: 20px 0;
 }
+#menu_gorne {
+background: #00ffff;
+border-left: 1px solid #800080;
+}
+#menu_gorne ul, #menu_gorne li {
+list-style-type: none;
+margin: 0;
+padding: 0;}
