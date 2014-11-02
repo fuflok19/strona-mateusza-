@@ -1,23 +1,30 @@
 body {
 margin: 0;
-padding: #5b2e00;
-background: #ff9e3e;
+padding: 0;
+background: 0;
 color: 0;
-font-size: 12px;
+font-size: 16px;
 font-family: Arial, Tahoma, sans-serif;
 text-align: center;
 }
+a {color: #000000;
+text-decoration: none;
+}
+a:hover {text-decoration: underline;
+}
+.clear {clear: both;
+}
 
 #kontener {
-width: 900px;
+width: 1000px;
 margin: 5px auto;
 text-align: left;
-background: #8080ff;
-border: 3px solid #408080;
+background: 0;
+border: 5px solid #804000;
 }
 #naglowek {
-background: #00ffff;
-border: 5px solid #800080;
+background: 0;
+border: 5px solid #804000;
 }
 
 #naglowek h1 {
@@ -26,10 +33,30 @@ text-align: center;
 padding: 20px 0;
 }
 #menu_gorne {
-background: #00ffff;
-border-left: 1px solid #800080;
+background: 0;
+border: 5px #804000;
+padding: 0 10px;
 }
 #menu_gorne ul, #menu_gorne li {
 list-style-type: none;
 margin: 0;
-padding: 0;}
+padding: 0;
+}
+#menu_gorne li {
+float: left;
+}
+#menu_gorne a {
+display: block;
+padding: 10px 5px;
+}
+#menu_gorne a:hover {background: #804000;
+}
+#tresc h2 {
+border: 5px #804000;
+
+}
+#tresc h2 {
+width: ;
+margin: 0;
+text-align: center;
+}
